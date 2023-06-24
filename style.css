@@ -1,0 +1,222 @@
+/* body {
+  min-height: 3000px;
+} */
+nav {
+  background-color: #ff4301;
+}
+
+.nav-link {
+  color: #e2edff;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #1b262c;
+}
+
+img {
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ff4301;
+}
+
+h1,
+p,
+i {
+  color: #e2edff;
+}
+
+#tentangsaya {
+  color: #e2edff;
+}
+
+i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#biosaya {
+  text-align: justify;
+  width: 800px;
+}
+
+#datadiri {
+  color: #e2edff;
+  text-align: start;
+}
+
+#tentang {
+  background-color: #1b262c;
+}
+
+#iconArrow {
+  color: #ff4301;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* RESUME */
+
+.resume {
+  background-color: #1b262c;
+  height: 70rem;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #e2edff;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #fa7d09;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #e2edff;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li,
+h2 {
+  padding-bottom: 10px;
+  color: #e2edff;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #ff4301;
+}
+
+/*SKILL*/
+
+#skill {
+  background-color: #1b262c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.html {
+  width: 80%;
+  height: 30%;
+  background-color: #fa7d09;
+}
+.css {
+  width: 70%;
+  height: 30%;
+  background-color: #fa7d09;
+}
+.js {
+  width: 50%;
+  height: 30%;
+  background-color: #fa7d09;
+}
+.react-native {
+  width: 75%;
+  height: 30%;
+  background-color: #fa7d09;
+}
+.figma {
+  width: 80%;
+  height: 30%;
+  background-color: #fa7d09;
+}
+.ms {
+  width: 80%;
+  height: 30%;
+  background-color: #fa7d09;
+}
+
+/* PROJECT */
+
+#projects {
+  background-color: #1b262c;
+}
+
+.card-text {
+  color: #1b262c;
+}
+
+button {
+  background-color: #ff4301;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #e2edff;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #e2edff;
+}
+
+button:hover {
+  background-color: #fa7d09;
+}
+
+button:active {
+  transform: translateY(1px);
+  background-color: #732c12;
+}
+
+/* KONTAK */
+
+#contact,
+label {
+  background-color: #1b262c;
+  color: #e2edff;
+}
+
+.txtkontak {
+  padding-left: 2.7rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #ff4301;
+}
