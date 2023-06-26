@@ -62,7 +62,8 @@ section {
 
 .resume {
   background-color: #1b262c;
-  height: 70rem;
+  min-height: 70rem;
+  max-width: 110rem;
 }
 
 .resume .resume-title {
@@ -129,6 +130,16 @@ h2 {
 
 #skill {
   background-color: #1b262c;
+  max-height: 60rem;
+  min-height: 30rem;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #e2edff;
 }
 
 * {
